@@ -1,0 +1,29 @@
+.liststyle {
+    text-align: center;
+    background-color: darkgray;
+    border-color: darkgreen;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liststyle a {
+    text-decoration: none;
+    color: darkred;
+    font-family: calibri;
+    font-size: 25px;
+}
+
+.liststyle li {
+    list-style: none;
+    padding: 10px;
+    border: solid 1px;
+    border-color: darkred;
+}
+
+.liststyle a:hover {
+    color: white;
+    border: solid;
+}
